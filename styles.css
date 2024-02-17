@@ -7,5 +7,14 @@
 
 body{
     background-color: white;
-    color: rgba(117, 117, 117, 1);
-}
+    color: rgba(117, 117, 117, 1);}
+.accent {
+    color : rgba(33, 150, 243, 1);}
+.logo-black {
+    color: rgba(0, 0, 0, 1);}
+.title {
+    color: rgba(33, 33, 33, 1);}
+.title-white {
+rgba(255, 255, 255, 1)}
+.title-white-inv {
+    color: rgba(255, 255, 255, 0.6)}
