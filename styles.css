@@ -111,8 +111,6 @@ header, section, footer {
 .advantages-prop {
     width: 1170px;
     height: 98px;
-    top: 774px;
-    left: 215px;
 }
 .title-desc {
     color: #757575;
@@ -192,3 +190,8 @@ background-color: aqua;
 transition-property: background-color;
 transition-duration: 1000ms;
 transition-timing-function: cubic-bezier(0.4,0,0.2,1)}
+
+
+p::first-line {
+    color: aqua;
+}
