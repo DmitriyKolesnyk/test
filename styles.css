@@ -99,6 +99,7 @@ header, section, footer {
     font-weight: 900;
     line-height: 60px;
     letter-spacing: 0.06em;
+    padding-top: 150px;
 }
 .title-white-button {
     color: #FFFFFF;
@@ -111,6 +112,7 @@ header, section, footer {
 .advantages-prop {
     width: 1170px;
     height: 98px;
+    padding-bottom: 100px;
 }
 .title-desc {
     color: #757575;
@@ -121,6 +123,7 @@ header, section, footer {
     letter-spacing: 0.03em;
     text-align: left;
     display: flex;
+    padding-top: 50px;
 }
 .title {
     color: rgba(33, 33, 33, 1);
@@ -138,6 +141,8 @@ header, section, footer {
     height: 386px;
     top: 966px;
     left: 215px;
+    margin-bottom: 150px;
+    padding-top: 100px;
 }
 .title-pictures {
     color: #212121;
@@ -156,6 +161,8 @@ header, section, footer {
 .team-prop {
     height: 648px;
     top: 1446px;
+    background-color: #F5F4FA;
+    padding-top: 100px;
 }
 .foot-prop {
     background-color: #2F303A;
@@ -194,4 +201,10 @@ transition-timing-function: cubic-bezier(0.4,0,0.2,1)}
 
 p::first-line {
     color: aqua;
+}
+
+@media (min-width: 900px) {
+    body {
+        background-color: yellow;
+    }
 }
